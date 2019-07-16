@@ -1,5 +1,4 @@
-baseURL = "https://RicoToothless.github.io/rico-blog"
-publishDir = "docs"
+baseURL = "https://RicoToothless.github.io/"
 title = "Rico-Blog"
 author = "Rico"
 theme = "inkblotty"
