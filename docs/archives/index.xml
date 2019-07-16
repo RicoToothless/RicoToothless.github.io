@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on Rico-Blog</title>
+    <link>https://RicoToothless.github.io/rico-blog/archives/</link>
+    <description>Recent content in Archives on Rico-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RicoToothless.github.io/rico-blog/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-07</title>
+      <link>https://RicoToothless.github.io/rico-blog/archives/2019-07/</link>
+      <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/rico-blog/archives/2019-07/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
