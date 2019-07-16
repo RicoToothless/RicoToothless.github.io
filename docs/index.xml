@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rico-Blog</title>
+    <link>https://RicoToothless.github.io/rico-blog/</link>
+    <description>Recent content on Rico-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RicoToothless.github.io/rico-blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://RicoToothless.github.io/rico-blog/about/</link>
+      <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/rico-blog/about/</guid>
+      <description>這裡是新手工程師的隨筆紀錄的地方 我做的是DevOps 除了CICD之外還兼具一些基本的Security CloudAdmin and MIS&amp;hellip;&amp;hellip;etc 總是覺得學習猶如倒金字塔 學越多發現更多要學 最近屏棄Google改用DuckDuckGo的工程師 會參加各種社群聚會努力吸收高手們的思維邏輯 搞懂團隊真正的需求是一門學問 在時間有限的情況下把手邊的哪些</description>
+    </item>
+    
+    <item>
+      <title>How to use gitbook set up github pages</title>
+      <link>https://RicoToothless.github.io/rico-blog/how-to-use-gitbook-set-up-github-pages/</link>
+      <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/rico-blog/how-to-use-gitbook-set-up-github-pages/</guid>
+      <description>先情提要 在寫這篇的時候我使用的是gitbook，但礙於在使用gitbook plugin-disqus的時候遇到一些issue 簡單講就是gitbook已經商業化，原本的開源專案已經3年沒有更新了 gitbook-cli最多只有支援到3.2.2，但是plugin-disqus需要4.0.0以上的版本 最主要</description>
+    </item>
+    
+  </channel>
+</rss>
