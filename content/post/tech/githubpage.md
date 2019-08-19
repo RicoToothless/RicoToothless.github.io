@@ -188,4 +188,4 @@ download gitbook editor [download](https://legacy.gitbook.com/editor)
 
 而隔壁棚的vscode可以做到剛截圖就可以直接插入到markdown的文章裡，[傳送門](https://github.com/telesoho/vscode-markdown-paste-image)
 
-Vim的 隨然還沒實際用過 不過應該可以省不少時間[傳送門](https://github.com/ferrine/md-img-paste.vim)
+Vim的貼圖小工具，實際用過幾次，可以節省一些時間[傳送門](https://github.com/ferrine/md-img-paste.vim)
