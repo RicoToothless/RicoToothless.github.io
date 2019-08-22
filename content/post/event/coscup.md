@@ -11,7 +11,7 @@ tags = [
 categories = [
     "event",
 ]
-archives = "2019-8"
+archives = "2019-08"
 +++
 
 # 活動開始前
