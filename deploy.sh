@@ -24,6 +24,7 @@ hugo -t inkblotty # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+
 # Add changes to git.
 git add .
 
@@ -35,6 +36,3 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
-
-# Delete Public folder
-rm -rf public/
