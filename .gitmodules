@@ -1,0 +1,4 @@
+[submodule "RicoToothless.github.io"]
+	path = RicoToothless.github.io
+	url = git@github.com:RicoToothless/RicoToothless.github.io.git
+	branch = master
