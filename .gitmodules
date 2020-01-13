@@ -1,8 +1,0 @@
-[submodule "RicoToothless.github.io"]
-	path = RicoToothless.github.io
-	url = git@github.com:RicoToothless/RicoToothless.github.io.git
-	branch = master
-[submodule "public"]
-	path = public
-	url = git@github.com:RicoToothless/RicoToothless.github.io.git
-	branch = master
