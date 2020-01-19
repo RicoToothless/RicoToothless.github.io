@@ -9,6 +9,7 @@ tags = [
     "docker",
     "kubernetes",
     "cdk",
+    "aws",
 ]
 categories = [
     "tech",

@@ -18,20 +18,20 @@ googleAnalytics = "UA-143962684-1"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "A place can talk anything"
-  mainSections = ["post","posts"]
-  logo = "/avatar.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  useHLJS = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
+    subtitle = "A place can talk anything"
+    mainSections = ["post","posts"]
+    logo = "/avatar.png" # Expecting square dimensions
+    favicon = "img/favicon.ico"
+    dateFormat = "January 2, 2006"
+    commit = false
+    rss = true
+    comments = true
+    readingTime = true
+    wordCount = true
+    useHLJS = true
+    socialShare = true
+    delayDisqus = true
+    showRelatedPosts = true
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
@@ -48,23 +48,35 @@ googleAnalytics = "UA-143962684-1"
 #  desc = "Hexagon"
 
 [Author]
-  name = "Rico Chen"
-  website = "RicoToothless.github.io/"
-  email = "rico3452@gmail.com"
-  facebook = "RicoToothless"
-  github = "RicoToothless"
-  linkedin = "rico-chen-536221165"
-  stackoverflow = "users/10285171/ricochen"
-  telegram = "RicoToothless"
+    name = "Rico Chen"
+    website = "RicoToothless.github.io/"
+    email = "rico3452@gmail.com"
+    facebook = "RicoToothless"
+    github = "RicoToothless"
+    linkedin = "rico-chen-536221165"
+    stackoverflow = "users/10285171/ricochen"
+    telegram = "RicoToothless"
 
 [[menu.main]]
-  identifier = "about"
-  name = "About Me"
-  url = "/about/"
-  weight = 10
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 9
 
 [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 9
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "categories"
+    weight = 11
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "tags"
+    weight = 12
