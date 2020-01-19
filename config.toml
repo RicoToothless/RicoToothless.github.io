@@ -1,5 +1,6 @@
 baseURL = "https://RicoToothless.github.io/"
-DefaultContentLanguage = "en-us"
+DefaultContentLanguage = "en"
+hasCJKLanguage = "true"
 title = "Rico-Blog"
 author = "Rico"
 theme = "beautifulhugo"
