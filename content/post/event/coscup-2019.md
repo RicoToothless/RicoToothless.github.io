@@ -2,7 +2,7 @@
 draft = false
 author = "Rico"
 title = "COSCUP 2019"
-date = "2019-8-19"
+date = "2019-08-19"
 description = ""
 tags = [
     "COSCUP",

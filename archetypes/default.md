@@ -1,7 +1,7 @@
 +++
 author = "Rico"
 title = ""
-date = "2019-"
+date = "2020-month-day"
 description = ""
 tags = [
     "",
@@ -9,9 +9,8 @@ tags = [
 ]
 categories = [
     "",
-    "",
 ]
-archives = "2019-"
+archives = "2020-month"
 +++
 
 

@@ -28,7 +28,6 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 
----
 # Go back to Hugo Project
 # Add changes to git.
 git add .
