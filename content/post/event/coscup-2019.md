@@ -5,8 +5,8 @@ title = "COSCUP 2019"
 date = "2019-08-19"
 description = ""
 tags = [
-    "COSCUP",
-    "CNTUG",
+    "coscup",
+    "cntug",
 ]
 categories = [
     "event",

@@ -4,7 +4,7 @@ title = "DevOpsDays 2019"
 date = "2019-10-23"
 description = ""
 tags = [
-    "DevOps",
+    "devops",
     "service mesh",
 ]
 categories = [
