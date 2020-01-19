@@ -1,45 +1,69 @@
 baseURL = "https://RicoToothless.github.io/"
+DefaultContentLanguage = "en-us"
 title = "Rico-Blog"
 author = "Rico"
-theme = "inkblotty"
-paginate = 10
-
-languageCode = "en-us"
-DefaultContentLanguage = "en-us"
-hasCJKLanguage = "true"
-
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
-
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+# pygmentsUseClassic = true
+# pygmentOptions = "linenos=inline"
+aginate = 5
+enableEmoji = true
 disqusShortname = "rico-blog"
-googleAnalytics = "rico-blog"
+googleAnalytics = "UA-143962684-1"
 
-summaryLength=150
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "A place can talk anything"
+  mainSections = ["post","posts"]
+  logo = "/avatar.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-[permalinks]
-  post = "/:slug/"
-  page = "/:slug/"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  archive = "archives"
+[Author]
+  name = "Rico Chen"
+  website = "RicoToothless.github.io/"
+  email = "rico3452@gmail.com"
+  facebook = "RicoToothless"
+  github = "RicoToothless"
+  linkedin = "rico-chen-536221165"
+  stackoverflow = "users/10285171/ricochen"
+  telegram = "RicoToothless"
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "About Me"
   url = "/about/"
   weight = 10
 
-[Params]
-  readmore = true
-
-[outputs]                          # c.f. https://gohugo.io/templates/output-formats/
-  home = ["HTML", "RSS"]
-  page =  ["HTML"]
-  section =  ["HTML", "RSS"]
-  taxonomyTerm =  ["HTML", "RSS"]
-  taxonomy =  ["HTML", "RSS"]
-
-[sitemap]
-  filename = "sitemap.xml"  # c.f. https://gohugo.io/templates/sitemap-template/#configure-sitemap-xml
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 9
