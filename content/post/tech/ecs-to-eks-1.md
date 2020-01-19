@@ -52,7 +52,7 @@ EKS 的架構如下：
 
 （不過最近 ECS 正在推出 EFS storage ，[教學文傳送門在此](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_efs.html)，雖然沒有實際實驗過，看起來是為了 application 不一定非要綁死特定的 node 上而設計的，目前正在 beta 版中。）
 
-或許會問，不論是 Secret Message queue 或 Cache 也好，這些其實都有 AWS 現成的服務，為何不選用呢？原因不外乎別的，就是成本考量。而 Kubernetes 有個蓬勃發展的生態圈，像是 Helm 也是讓很多管理人員省下不少事，而雖然 Helm 很方便，但需要 debug 的時候還是得了解其原理才行。幸好我在 ECS 架設 Vault 、 Redis 以及 Rabbitmq 時已經了解不少，畢竟要是不了解根本無法在 ECS 上＂完美的＂架起來，因為有點追求完美的個性，會希望即使關機也能夠快速恢復，但又因為 ECS 的特性，最後真的用得很不俐落。
+或許會問，不論是 secret 、 message queue 或 cache 也好，這些其實都有 AWS 現成的服務，為何不選用呢？原因不外乎別的，就是成本考量。而 Kubernetes 有個蓬勃發展的生態圈，像是 Helm 也是讓很多管理人員省下不少事，而雖然 Helm 很方便，但需要 debug 的時候還是得了解其原理才行。幸好我在 ECS 架設 Vault 、 Redis 以及 Rabbitmq 時已經了解不少，畢竟要是不了解根本無法在 ECS 上＂完美的＂架起來，因為有點追求完美的個性，會希望即使關機也能夠快速恢復，但又因為 ECS 的特性，最後真的用得很不俐落。
 
 還有一點推力是 ECS & EKS 本是同根生，同樣都是使用 container 技術， migrate 非常容易， code 不需要做任何變更，所以完全不會影響開發進度。
 
