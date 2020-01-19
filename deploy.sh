@@ -11,7 +11,7 @@ if [ $# -eq 1 ]
 fi
 
 # Build the project.
-hugo -t inkblotty # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
