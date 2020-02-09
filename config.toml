@@ -1,4 +1,4 @@
-baseURL = "https://RicoToothless.github.io/"
+baseURL = "https://blog.rico.ninja"
 DefaultContentLanguage = "en"
 hasCJKLanguage = "true"
 title = "Rico-Blog"
