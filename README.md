@@ -18,8 +18,4 @@ and insert image in article
 
 ## deploy to github repo & github page
 
-my github page type is User/Organization Pages
-
-```bash
-./deploy.sh '{your git commit message}'
-```
+My Github page type is User/Organization Pages. And git commit would trigger GitHub Action.
