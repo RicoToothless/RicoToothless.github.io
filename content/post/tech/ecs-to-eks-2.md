@@ -64,7 +64,7 @@ archives = "2020-02"
 1. 先測試環境之後正式環境。
 2. 先無狀態 application 之後有狀態 application 。
 3. 先簡單之後困難
-   
+
 第一點應該沒什麼需要補充的，而第二點其實跟第三點的概念十分相似，自己本身雖然有學過 Kubernetes 但畢竟實際實踐是兩回事，所以本質上是從頭開始學起，所以先站穩腳步再提及跑步是妥當的做法，再加上有些工具都要跟著換會更好，例如 CICD 的工具 [Kubernetes plugin for Jenkins](https://github.com/jenkinsci/kubernetes-plugin)。
 
 # Testing
