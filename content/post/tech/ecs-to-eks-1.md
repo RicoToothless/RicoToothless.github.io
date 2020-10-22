@@ -39,7 +39,7 @@ EKS 的架構如下：
 
 # Why ECS migrate to EKS?
 
-一開始我們的架構很單純， ECS 裡面架設自己的 app 加上 RDS ，但後來漸漸地需要各式各樣的工具，像是儲存 secret 、 message queue 和 cache 等等。而且這些工具都是 stateful 的服務，光是本身要做 HA 就不太容易，而在 ECS 上做 HA 更是讓 ECS 的優勢不再凸顯，在 ECS 上架設 HA 跟直接在一般的 EC2 上架設差不多。
+一開始我們的架構很單純， ECS 裡面架設自己的 app 加上 RDS ，但後來漸漸地需要各式各樣的工具，像是儲存 secret 、 message queue 和 cache 等等。而且這些工具都是 stateful 的服務，光是本身要做 HA 就不太容易，而在 ECS 上做 HA 更是讓 ECS 的優勢不再凸顯，在 ECS 上架設 HA 跟直接在一般的 EC2 上架設差不多。
 
 一大主因是對於 ECS storage 雖然也有類似 Kubernetes PV （Persistent Volume）的概念，而且 ECS 用 EBS 也可以用 user-data 做到類似的效果，但基本上 ECS 對於 mount volume 只有 Docker 的實作，而 Kubernetes 的實作包含了兩個，一個是 controller + CRI（通常都是用 Docker） 的實作。所以最大問題就來了， ECS 最一開始 volume 要 assign 到哪一個 node 上要怎麼決定？在 ECS 對於 worker node 都是以 Auto Scaling Group 的做法， user-data 的方法很在多台 node 下的 cluster 明顯是有問題的。
 
