@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019-8 on Rico-Blog</title>
+    <link>https://RicoToothless.github.io/archives/2019-8/</link>
+    <description>Recent content in 2019-8 on Rico-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://RicoToothless.github.io/archives/2019-8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COSCUP 2019</title>
+      <link>https://RicoToothless.github.io/coscup-2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/coscup-2019/</guid>
+      <description>活動開始前 在搶票之前我就先花了 2500 元買了&amp;rdquo;[算我一票] COSCUP 個人贊助票&amp;rdquo;，後來又發現有賣&amp;rdquo;2019！開源久酒！&amp;rdquo;的活動票，能跟大家聚聚何樂不為呢？ 因為&amp;rdquo;[算我一票] COSCUP 個人贊助票&amp;rdquo;已經包含 COSCUP 入場的資格了，所以真是辛苦那些搶票的人。 201</description>
+    </item>
+    
+  </channel>
+</rss>
