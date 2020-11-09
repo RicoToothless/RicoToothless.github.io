@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020-01 on Rico-Blog</title>
+    <link>https://RicoToothless.github.io/archives/2020-01/</link>
+    <description>Recent content in 2020-01 on Rico-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RicoToothless.github.io/archives/2020-01/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ECS migrate to EKS part 1</title>
+      <link>https://RicoToothless.github.io/ecs-migrate-to-eks-part-1/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/ecs-migrate-to-eks-part-1/</guid>
+      <description>What is ECS? 這裡簡單的介紹一下 ECS ，他是一個簡單好上手的 container orchestration ，個人覺得比 Docker Swarm 還要容易上手。 ECS 我們都只使用 EC2 的底層，他的架構如下： 我特別標示了 Auto Scaling Group 的部分可以看出，實際上 ECS host 也就是所謂的 EC2 Instance ，如果要一個 cluster 裡面要多台 EC2 就是靠 Auto Scaling Group 自動 create EC2 給你，之後再靠 task definition file 和 service 來定義 container 要怎麼啟動。 What is EKS? EKS 本質上就是受到 AWS 託管的</description>
+    </item>
+    
+  </channel>
+</rss>

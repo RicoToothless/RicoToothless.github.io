@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019-10 on Rico-Blog</title>
+    <link>https://RicoToothless.github.io/archives/2019-10/</link>
+    <description>Recent content in 2019-10 on Rico-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://RicoToothless.github.io/archives/2019-10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DevOpsDays 2019</title>
+      <link>https://RicoToothless.github.io/devopsdays-2019/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://RicoToothless.github.io/devopsdays-2019/</guid>
+      <description>DevOpsDays 擔任的角色 這次有幸擔任 DevOpsDays 的志工，之前在 DevOps Meetup 都是當收門票的志工居多，只有一次擔任主辦人，但工作都蠻簡單的，真的只要有心大家都可以擔任志工（接班人）喔！歡迎大家加入 DevOps 來擔任志工。 而這次的大型活動我選擇了錄影志工，基本上像是攝影器材和架設都有另外一位志工都處理得妥妥的，我們小小錄影志工只有攝影而已，而且</description>
+    </item>
+    
+  </channel>
+</rss>
