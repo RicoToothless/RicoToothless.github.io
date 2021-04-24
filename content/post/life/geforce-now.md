@@ -10,7 +10,7 @@ tags = [
 categories = [
     "life",
 ]
-archives = "2021-3"
+archives = "2021-03"
 +++
 
 ### All about Guild Wars 2
