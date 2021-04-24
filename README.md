@@ -1,9 +1,17 @@
 # Hugo Usage
 
-## add new content
+## quick start
 
+add new article
 ```bash
 hugo new post/{categories}/{article}.md
+```
+
+> WARNING: If the date is in the future, it may miss articles
+
+serve local website
+```bash
+hugo serve -D
 ```
 
 ## add new images
