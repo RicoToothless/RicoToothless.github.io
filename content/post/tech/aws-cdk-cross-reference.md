@@ -1,7 +1,7 @@
 +++
 author = "Rico"
 title = "AWS CDK cross-reference"
-date = "2021-05-24"
+date = "2021-05-23"
 description = "Several ways to cross-reference in AWS CDK"
 tags = [
     "aws",
