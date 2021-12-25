@@ -16,6 +16,8 @@ categories = [
 archives = "2021-12"
 +++
 
+![vault-ethereum-opening](/vault-ethereum-opening.png)
+
 ## What is Hashicorp Vault?
 
 在介紹最核心的 plugin 之前還是要講一下這個工具的背景，由 [Hashicorp](https://www.hashicorp.com/) 公司開發的產品 [Vault](https://www.vaultproject.io/)，Vault 專門管理任何敏感的資料，而且用法非常非常多元。從常見的儲存 key value 的敏感資料外，動態生產臨時用的敏感資料也算，例如，生產臨時的 AWS IAM、資料庫 username & password、生產 TLS 給 cert-manager 等等，除了內建的使用方法外，Vault 也支援 [plugin 系統](https://www.vaultproject.io/docs/internals/plugins)，使用者可以寫自己的邏輯在裡面。
@@ -37,6 +39,8 @@ Vault Ethereum plugin 作者為美國 Washington, D.C. 和 Baltimore 地區的 H
 ## Vault Ethereum plugin usage
 
 [Vault-Ethereum Plugin](https://github.com/immutability-io/vault-ethereum) 專案的 README 已經有個快速的 demo 展示其主要功能，簡單來說他會在 docker-compose 裡創建兩個服務，一個是 vault 一個是 ganache（ganache 是用來個人測試的 Ethereum node，很多測試的功能會預先替使用者準備好）。
+
+![vault-ethereum-architecture](/vault-ethereum-architecture.png)
 
 作者建議把專案放在 `GOPATH` 下，但其實如果只是純粹用 docker-compose 的話其實可以不用。一開始會自己客製 container image 後啟動 docker-compose 環境。
 
