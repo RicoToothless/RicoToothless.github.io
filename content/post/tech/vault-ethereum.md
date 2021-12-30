@@ -9,6 +9,7 @@ tags = [
     "ethereum",
     "container",
     "kubernetes",
+    "remote-signer",
 ]
 categories = [
     "tech",
@@ -26,11 +27,21 @@ Vault plugin 跟 Vault 本身是兩支不同且獨立的程式，為了資安考
 
 ## Why Vault Ethereum plugin?
 
+在進入正題前要先跟大家講一下背景，區塊鏈錢包傳統上是架設一台完整的節點機器，然後在節點機器上創建錢包，錢包的操作都靠這台節點完成。
+
+沒有意外的話錢包的操作不會對外開放，一定得進去機器才做操作。但問題就來了，只要駭客能進到這機器和有 account password 就可以操作錢包，另外假如今天要管理多台節點該怎麼有效管理？假如我今天要管理大量的錢包要如何保證其安全？
+
+於是乎，有多種 remote signer 的工具給大家選擇，簡單來說就是把節點跟錢包拆開來管理。每一種 remote signer 工具的流程都不太一樣，有些是先問 remote signer 再問節點，例如這次介紹的 Vault Ethereum plugin；有些是先問節點再問 remote signer，例如 [Clef](https://github.com/ethereum/go-ethereum/tree/master/cmd/clef#security-model)。
+
+不可否認的是，remote signer 是很進階的工具，雖然 remote signer 會把 private keys 加密過放在硬碟裡、放在外部的 cloud provider SaaS 或者 HSM 裝置裡，但是要怎麼規劃網路，還有誰可以使用都必須好好設計。
+
+---
+
 Vault Ethereum plugin 作者為美國 Washington, D.C. 和 Baltimore 地區的 HashiCorp User Group 創辦人 Jeff Ploughman 在[這篇文章](https://www.hashicorp.com/blog/using-vault-to-build-an-ethereum-wallet)認為：
 
 雖然使用錢包時是基於密碼學之上，而 public key 可以當作分散式的概念分享給其他人，但 private key 本質上是中心化的概念，因為此概念跟區塊鏈分散式的思想背道而馳，讓作者常常不經思考錢包並不是跟區塊鏈的概念一起設計的，反而像是區塊鏈另外加裝一個錢包功能的 sidecar（白話一點就是作者覺得錢包設計沒有很優秀），這也讓很多大型企業在管理錢包的時候傷透腦筋。
 
-所以作者倚賴 Hashicorp Vault，因為此工具已經提供很多安全的機制，例如文章裡面示範了 Vault 本身的 seal 機制、application 或是使用者身份驗證、MFA 和支援 HSM（需要 Vault Enterprise 才有）。
+所以作者倚賴 Hashicorp Vault，因為此工具已經提供很多安全的機制，例如文章裡面示範了 Vault 本身的 seal 機制、application 或是使用者身份驗證、MFA 和支援 HSM（需要 Vault Enterprise 才有），當然我個人最看重的還是 [Auth Methods](https://www.vaultproject.io/docs/auth) 、[Policy](https://www.vaultproject.io/docs/concepts/policies) 和 [Audit](https://www.vaultproject.io/docs/audit) 的機制，這樣可以在眾多使用者或程式當中誰可以存取哪些 private key、只授權能做特定的操作最後追蹤特定的時間點發生什麼事。
 
 文章也提到可以拿來串 Github MFA authentication 做 CICD pipeline 來部署 smart contract，當然這還是得看 gas price 現在行情如何。
 
@@ -101,5 +112,7 @@ needs to be recompiled to support the latest protocol.
 ## Reference
 
 * [Vault Plugin System](https://www.vaultproject.io/docs/internals/plugins)
+* [Geth Managing Your Accounts](https://geth.ethereum.org/docs/interface/managing-your-accounts)
+* [Remote Signing with Web3Signer](https://lighthouse-book.sigmaprime.io/validator-web3signer.html)
 * [Vault on Kubernetes Deployment Guide](https://learn.hashicorp.com/tutorials/vault/kubernetes-raft-deployment-guide)
 * [Vault Helm Chart](https://github.com/hashicorp/vault-helm)
