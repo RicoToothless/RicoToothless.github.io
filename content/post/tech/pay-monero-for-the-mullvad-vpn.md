@@ -63,7 +63,7 @@ Monero 跟 Bitcoin 和 Ethereum 等等加密貨幣不一樣的是，Monero 是�
 3. 你的 DNS 有沒有洩漏你造訪網站的資訊，因為只要你去解析網域，DNS 就會知道你要去什麼網站，也就是說 DNS 也知道你在網路上的行蹤
 4. WebRTC 技術是否洩漏出你真實 IP 的資訊，WebRTC 是可以讓使用者跟影音直接連線的技術，也因為如此他的副作用就是洩漏真實 IP 的資訊
 
-Mullvad VPN 可以使用他們的寫的 client 連線，也可以直接使用 OpenVPN 或是 WireGuard 連，
+Mullvad VPN 可以使用他們的寫的 client 連線，也可以直接使用 OpenVPN 或是 WireGuard 連。
 
 ## Conclusion
 
