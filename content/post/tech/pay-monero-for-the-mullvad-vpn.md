@@ -32,7 +32,7 @@ archives = "2021-01"
 
 恩，這張圖不太衛生我知道，但這張圖真的可以闡述 VPN 的精髓。
 
-![VPN-meme](https://i.kym-cdn.com/photos/images/original/001/524/130/f9d.jpg)
+![vpn-meme](https://i.kym-cdn.com/photos/images/original/001/524/130/f9d.jpg)
 
 圖片來自 [know your meme](https://knowyourmeme.com/photos/1524130)
 
