@@ -11,7 +11,7 @@ tags = [
 categories = [
     "tech",
 ]
-archives = "2021-01"
+archives = "2022-01"
 +++
 
 ## Why we need VPN service?
