@@ -72,4 +72,4 @@ Mullvad VPN 可以使用他們的寫的 client 連線，也可以直接使用 Op
 * VPN 可以讓你在網路上不裸奔
 * Tor 雖然很有隱私但正常瀏覽網頁很不方便
 * 選擇信任的 VPN 服務商很重要，因為他有能力知道你真正在網路上的行蹤
-* Mullvad VPN 沒有直接收 Monero，但可以透過 ProxyStore 辦到
+* Mullvad VPN 沒有直接收 Monero，但可以透過 ProxyStore 辦到（現在已經支援 Monero 了）
