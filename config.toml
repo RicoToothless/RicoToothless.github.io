@@ -24,7 +24,7 @@ googleAnalytics = "UA-143962684-1"
     favicon = "img/favicon.ico"
     dateFormat = "January 2, 2006"
     commit = false
-    rss = true
+    rss = false
     comments = true
     readingTime = true
     wordCount = true
@@ -49,13 +49,11 @@ googleAnalytics = "UA-143962684-1"
 
 [Author]
     name = "Rico Chen"
-    website = "RicoToothless.github.io/"
+    website = "blog.rico.ninja"
     email = "rico3452@gmail.com"
-    facebook = "RicoToothless"
     github = "RicoToothless"
     linkedin = "rico-chen-devops"
     stackoverflow = "users/10285171/ricochen"
-    telegram = "RicoToothless"
     twitter = "RicoChenNinja"
 
 [[menu.main]]

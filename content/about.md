@@ -18,6 +18,6 @@ date = "2019-07-06"
 
 在時間有限的情況下把手邊的哪些事情自動化也是一門學問
 
-這是我[github pages url](https://ricotoothless.github.io/rico-blog/)
+這是我 [github pages url](https://ricotoothless.github.io/rico-blog/)
 
-以及這個[github repo](https://github.com/RicoToothless/rico-blog)
+以及這個 [github repo](https://github.com/RicoToothless/rico-blog)
