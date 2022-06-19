@@ -48,7 +48,7 @@ Cosmos SDK metrics 反而比較適合拿來做網路上的分析或是用 dashbo
 
 ## How to monitor remotely?
 
-理想上，我們還是希望監控在不碰到機器的情況下得知 validator 是否正常運作，其原理跟網頁上看到的 scanner 差不多，直接呼叫 RPC 取得鏈上資訊後顯示在網頁上，例如：[MINTSCAN](https://www.mintscan.io/cosmos) 或 [BIG DIPPER](https://cosmos.bigdipper.live/)，所以從頭到尾這些網站都沒有碰到機器就可以知道所有 validators 有沒有在運作。
+理想上，我們還是希望監控在不碰到機器的情況下得知 validator 是否正常運作，其原理跟網頁上看到的 scanner 差不多，直接呼叫 RPC 取得鏈上資訊後，經由後端一些處理再顯示在網頁上，畢竟要應付全世界大量的 requests 還是得多一層後端做 cache，例如：[MINTSCAN](https://www.mintscan.io/cosmos) 或 [BIG DIPPER](https://cosmos.bigdipper.live/)，所以從頭到尾這些網站都沒有碰到機器就可以知道所有 validators 有沒有在運作。
 
 換句話說，我們其實可以運用 Prometheus exporter 做到類似的事情，幸運的是，社群裡已經有現成的 [solarlabsteam/cosmos-exporter](https://github.com/solarlabsteam/cosmos-exporter)（關鍵字直接輸入 cosmos-exporter 會有很多其他的結果），這個 exporter 基本上適用於所有以 Cosmos SDK 架起來的鏈，只有少部分客製化很高的鏈會讓某些 metrics 無法使用，可以自己 fork repository 然後拿掉或改動程式碼即可。這個 exporter 可以監控整個網路的 validators 或者只要監控特定幾個 wallet or validator addresses。
 
